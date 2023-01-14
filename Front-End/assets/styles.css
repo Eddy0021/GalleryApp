@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+/* Header */
+#Header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #1b995e;
+  color: white;
+  text-align: center;
+}
+
+#Header h3 {
+  color: yellow;
+}
+
+/* -------------------------------------------------------- */
+
+/* Login */
+
+.loginSection {
+  justify-content: center;
+  display: flex;
+  
+}
+
+.loginDiv {
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  width: 35%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.loginSection h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid #ccc;
+  color: #1b995e;
+  margin: 0 0 1rem 0;
+}
+
+.loginSection p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #8ddba4;
+  padding: 0.5rem;
+  color: #1f1f1f;
+  border-radius: 25px;
+}
+
+.loginSection input {
+  width: 50%;
+  margin-bottom: 10px;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+
+.loginSection input:focus {
+  outline: none;
+  border-color: #1b995e;
+  background-color: #d7fdeb;
+}
+
+.loginSection button {
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
+  color: white;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+#ForgotPWBTN {
+  background-color: lightgray !important;
+  border-color: white !important;
+  color: black !important;
+}
+
+.loginSection button:hover,
+.loginSection button:active {
+  background-color: black;
+  border-color: #ec3169;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+/* -------------------------------------------------------- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Gallery HTML */
+
+/* Class doesn't exit anymore
+.gallery_body {
+  background-color: rgb(52, 56, 59);
+}
+
+.gallery_body button{
+  margin-bottom: 10px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: lightgreen;
+  color: black;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 26%);
+}
+
+.gallery_body button:hover,
+.gallery_body button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
+  color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+*/
+
+.nav-bar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding-bottom: 5px;
+  background-color: white;
+  border-radius: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  margin-left: 20px;
+}
+
+.left p {
+  border-radius: 20px;
+  margin-bottom: 17px;
+  font-weight: bold;
+  border: 1px solid #ff0077;
+  background-color: #ff0077;
+  color: lightgoldenrodyellow;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 26%);
+}
+
+.right {
+  margin-top: 10px;
+  margin-right: 20px;  
+}
+
+.right button{
+  border-radius: 20px;
+}
+
+#album {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+#album-list {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.control-buttons{
+  margin-top: 20px;
+}
+
+.album-folders {
+  border-radius: 20px;
+  width: 264px;
+  margin: 5px;
+  padding-bottom: 70px;
+  background-color: white;
+  border: 1px solid #ff0077;
+  text-align: center;
+  cursor: pointer;
+}
+
+.album-folders:hover{
+  background-color: limegreen;
+}
+
+.control-buttons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.control-buttons button{
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px !;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: lightgreen;
+  color: black;
+  padding: 0.05rem 1rem;
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 26%);
+}
+
+.control-buttons button:hover,
+button:active {
+  background-color: #ec3169;
+  border-color: #ec3169;
+  color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+#slika-list{
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.slika {
+  border-radius: 20px;
+  width: 264px;
+  margin: 5px;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid #ff0077;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slika img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slika:hover{
+  background-color: limegreen;
+}
+
+#ResetPasswordinputs {
+  display: flex;
+  flex-flow: column;
+}
+
+#ResetPasswordDiv {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}

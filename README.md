@@ -26,3 +26,9 @@ and we can see all the pictures which the user updated to that folder, by clicki
   <ol>AspNetCore</ol>
   <ol>Net.Mail</ol>
 </ul>
+
+<h2>Info</h2>
+<p>Project was made approximately in 2020</p>
+
+<p>In this project i first time used JwT Tokens and .NET Mail service, since that I am using it regularly</p>
+

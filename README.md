@@ -27,6 +27,13 @@ and we can see all the pictures which the user updated to that folder, by clicki
   <ol>Net.Mail</ol>
 </ul>
 
+<h6><b>DataBase: SQL</b></h6>
+<ul>
+  <ol>Tabels</ol>
+  <ol>Relations</ol>
+  <ol>Stored Procedures</ol>
+</ul>
+
 <h2>Info</h2>
 <p>Project was made approximately in 2020</p>
 
